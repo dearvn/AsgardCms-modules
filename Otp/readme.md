@@ -1,5 +1,6 @@
 ==========================
 Thanks @tpaksu
+==========================
 Laravel OTP Login Module for AsgardCms
 This package provides an One Time Password check step after successful login using the default authentication mechanism. The package stores all requested OTP and it's validation statuses in one_time_passwords and one_time_password_logs tables.
 
