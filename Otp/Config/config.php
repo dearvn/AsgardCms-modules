@@ -21,7 +21,7 @@ return [
             'class' => \Modules\Otp\Services\Twilio::class,
             'account_sid' => env("TWILIO_SID", null),
             'auth_token' => env("TWILIO_AUTH_TOKEN", null),
-            'from' => env("OTP_FROM", '+18334250302')
+            'from' => env("OTP_FROM", '+12345678901')
         ]
     ],
     'user_phone_field' => 'phone',
